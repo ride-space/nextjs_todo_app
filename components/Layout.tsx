@@ -5,7 +5,7 @@ type Props = {
   title: string;
   children: ReactNode;
 };
-const Layout: FC<Props> = ({ children, title = "NextJs" }) => {
+export const Layout: FC<Props> = ({ children, title = "NextJs" }) => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <Head>
@@ -18,4 +18,3 @@ const Layout: FC<Props> = ({ children, title = "NextJs" }) => {
   );
 };
 
-export default Layout;
