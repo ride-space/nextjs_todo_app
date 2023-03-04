@@ -57,6 +57,7 @@ const Home: NextPage = () => {
   };
   return (
     <Layout title="Auth">
+      <div>これはテストです。</div>
       <ShieldCheckIcon className="h-16 w-16 text-blue-500" />
       {error && (
         <Alert

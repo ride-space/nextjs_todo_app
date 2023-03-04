@@ -24,6 +24,7 @@ const Dashboard: NextPage = () => {
         className="mb-6 h-6 w-6 cursor-pointer text-blue-500"
         onClick={logout}
       />
+      <div>これはテストです。</div>
       <UserInfo />
       <TaskForm />
       <TaskList />
