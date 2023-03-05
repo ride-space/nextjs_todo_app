@@ -9,6 +9,7 @@ console.log(data);
   return (
     <Layout title="Task Board">
       <div>これはテストです。</div>
+      <div>これはテスト2です。</div>
 {data?.map((post) => {
   return <div key={post.id}>{post.id}:{post.body}</div>
 })}
