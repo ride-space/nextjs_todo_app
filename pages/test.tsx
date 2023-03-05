@@ -10,7 +10,7 @@ console.log(data);
     <Layout title="Task Board">
       <div>これはテストです。</div>
 {data?.map((post) => {
-  return <div key={post.id}>{post.body}</div>
+  return <div key={post.id}>{post.id}:{post.body}</div>
 })}
     </Layout>
   );
